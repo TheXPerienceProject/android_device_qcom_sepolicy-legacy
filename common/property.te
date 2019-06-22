@@ -55,6 +55,7 @@ type opengles_prop, property_type;
 type mdm_helper_prop, property_type;
 type mpdecision_prop, property_type;
 type gamed_prop, property_type;
+type vendor_mpctl_prop, property_type;
 
 #Needed for  ubwc support
 type debug_gralloc_prop, property_type;
@@ -137,4 +138,5 @@ type mmi_prop, property_type;
 #imsrcsservice
 type ctl_vendor_imsrcsservice_prop, property_type;
 
-type wcnss_prop, property_type;
+#wlan-vendor prop
+type vendor_wifi_prop, property_type;

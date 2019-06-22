@@ -29,7 +29,7 @@ sys.usb_uicc.              u:object_r:uicc_prop:s0
 dolby.audio.               u:object_r:audio_prop:s0
 vendor.ims.                u:object_r:qcom_ims_prop:s0
 sys.ims.                   u:object_r:qcom_ims_prop:s0
-hw.fm.                     u:object_r:fm_prop:s0
+vendor.hw.fm.              u:object_r:fm_prop:s0
 sys.usf.                   u:object_r:usf_prop:s0
 ro.qc.sdk.us.                 u:object_r:usf_prop:s0
 radio.atfwd.               u:object_r:radio_prop:s0
@@ -65,6 +65,7 @@ ro.qualcomm.bt.hci_transport  u:object_r:bluetooth_prop:s0
 ctl.mdm_helper             u:object_r:mdm_helper_prop:s0
 ctl.mpdecision             u:object_r:mpdecision_prop:s0
 qualcomm.perf.cores_online u:object_r:mpdecision_prop:s0
+vendor.post_boot.parsed    u:object_r:vendor_mpctl_prop:s0
 netd.fstman.               u:object_r:netd_prop:s0
 location.                  u:object_r:location_prop:s0
 qc.izat.                   u:object_r:location_prop:s0
@@ -131,5 +132,5 @@ persist.vendor.mmi.        u:object_r:mmi_prop:s0
 
 ctl.vendor.imsrcsservice   u:object_r:ctl_vendor_imsrcsservice_prop:s0
 
-wlan.driver.ath            u:object_r:wcnss_prop:s0
-wlan.driver.config         u:object_r:wcnss_prop:s0
+#vendor-wlan
+vendor.wlan.  u:object_r:vendor_wifi_prop:s0
