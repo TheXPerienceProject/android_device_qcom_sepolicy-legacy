@@ -25,3 +25,4 @@ BOARD_SEPOLICY_DIRS += \
 BOARD_SEPOLICY_VERS := $(PLATFORM_SDK_VERSION).0
 
 -include device/xperience/sepolicy/qcom/sepolicy.mk
+-include device/xperience/sepolicy/common/sepolicy.mk
